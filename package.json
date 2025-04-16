@@ -1,0 +1,30 @@
+{
+  "name": "pure_functions",
+  "version": "1.0.0",
+  "description": "**Важно**: каждая задача выполняется в виде отдельного проекта с собственным GitHub репозиторием.",
+  "homepage": "https://github.com/Starina-Lokich/Pure_functions#readme",
+  "bugs": {
+    "url": "https://github.com/Starina-Lokich/Pure_functions/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Starina-Lokich/Pure_functions.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.27.0",
+    "@babel/core": "^7.26.10",
+    "@babel/preset-env": "^7.26.9",
+    "@eslint/js": "^9.24.0",
+    "core-js": "^3.41.0",
+    "eslint": "^9.24.0",
+    "eslint-plugin-jest": "^28.11.0",
+    "globals": "^16.0.0",
+    "jest": "^29.7.0"
+  }
+}
