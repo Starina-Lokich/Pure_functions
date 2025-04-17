@@ -1,4 +1,5 @@
 # Домашнее задание к лекции «Unit-тестирование»
+[![Build status](https://ci.appveyor.com/api/projects/status/<YOUR_PROJECT_ID>?svg=true)](https://ci.appveyor.com/project/<YOUR_USERNAME>/<YOUR_REPO_NAME>)
 
 **Важно**: каждая задача выполняется в виде отдельного проекта с собственным GitHub репозиторием.
 

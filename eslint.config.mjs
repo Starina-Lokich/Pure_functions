@@ -3,12 +3,12 @@
 import { defineConfig } from 'eslint/config';
 import globals from 'globals';
 import js from '@eslint/js';
-import jestPlugin from 'eslint-plugin-jest'; // Поддержка Jest
+import jestPlugin from 'eslint-plugin-jest'; // Импорт плагина Jest
 
 export default defineConfig([
   // Основная конфигурация для всех JavaScript-файлов
   {
-    files: ['**/*.{js,mjs,cjs}'], // Применяется к всем JS-файлам
+    files: ['**/*.{js,mjs,cjs}'], // Применяется ко всем JS-файлам
     languageOptions: {
       globals: {
         ...globals.browser, // Глобальные переменные браузера
@@ -21,13 +21,13 @@ export default defineConfig([
     },
   },
 
-  // Конфигурация для работы с Jest
+  // Конфигурация для тестовых файлов
   {
     files: ['__tests__/**/*.{js,mjs,cjs}'], // Применяется только к тестовым файлам
     plugins: {
-      jest: jestPlugin, // Добавляем плагин для Jest
+      jest: jestPlugin, // Добавляем плагин Jest
     },
-    extends: ['plugin:jest/recommended'], // Используем рекомендации Jest
+    extends: ['jest/recommended'], // Используем рекомендации Jest
     rules: {
       'jest/no-disabled-tests': 'error', // Запрещаем отключение тестов
       'jest/no-focused-tests': 'error', // Запрещаем фокусированные тесты
