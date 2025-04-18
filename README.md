@@ -1,5 +1,5 @@
 # Домашнее задание к лекции «Unit-тестирование»
-[![Build status](https://ci.appveyor.com/api/projects/status/<YOUR_PROJECT_ID>?svg=true)](https://ci.appveyor.com/project/<YOUR_USERNAME>/<YOUR_REPO_NAME>)
+[![Build status](https://ci.appveyor.com/api/projects/status/gqxktnh8i8100rr2?svg=true)](https://ci.appveyor.com/project/Starina-Lokich/pure-functions)
 
 **Важно**: каждая задача выполняется в виде отдельного проекта с собственным GitHub репозиторием.
 
